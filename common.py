@@ -5,7 +5,7 @@ cmn=[]
 
 for i in A:  
     if i in cmn:
-        break
+        continue 
     for j in B:
         if i == j:
             cmn.append(i)
